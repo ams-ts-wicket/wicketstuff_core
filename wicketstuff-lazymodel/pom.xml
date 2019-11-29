@@ -15,6 +15,16 @@
 	<name>LazyModel</name>
 	<description>Compile-time typesafe models for Wicket</description>
 
+	<!-- https://github.com/wicketstuff/core/issues/684 -->
+	<repositories>
+		<repository>
+			<id>ams_ivy_repo</id>
+			<url>http://potsdam.potsdam.am-soft.de/ams_mvn_repo</url>
+			<releases><enabled>false</enabled></releases>
+			<snapshots><enabled>true</enabled></snapshots>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<!-- https://github.com/wicketstuff/core/issues/684 -->
 		<dependency>
